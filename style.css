@@ -1,0 +1,58 @@
+h1{
+    color: rgb(34, 34, 45);
+    border-radius: 45px;
+    background-color: whitesmoke;
+    font-size: 40px;
+
+
+}
+
+body{
+    background-color: darkgray;
+}
+ .contents .body .card-container{
+     width: 80%;
+     border-radius: 5px;
+     box-shadow: 0 0 10px;
+     gap:30px;
+     display: flex;
+     flex-direction: row;
+     
+ }
+ 
+.contents .body .card-container .card-desc{
+    width: 50%;
+    font-size: 19px;
+}
+.contents .body .card-container .card-desc:hover{
+    box-shadow: 0 0 10px;
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+a{
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Changes cursor on hover */
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    border-color: whitesmoke;
+}
+
+/* Hover effect */
+a:hover {
+    background-color: blue;
+    transform: scale(1.1); /* Slight zoom effect */
+    cursor: pointer; /* Pointer shows hand icon */
+}
+
+/* Active / Click effect */
+a {
+
+    transform: scale(0.95); /* Button shrinks a bit on click */
+    cursor: wait; /* Example: shows wait cursor when clicking */
+}

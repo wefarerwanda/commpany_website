@@ -1,0 +1,339 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            line-height: 1.6;
+        }
+        .image-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    flex: 1 1 30%;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.image-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.image-box p {
+    padding: 10px 5px;
+    font-weight: bold;
+    color: #004d00;
+}
+
+.image-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .image-box {
+        flex: 1 1 100%;
+    }
+}
+.focus-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.focus-box {
+    flex: 1 1 30%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.focus-box h3 {
+    color: #004d00;
+    margin-bottom: 10px;
+}
+
+.focus-box p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.focus-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .focus-box {
+        flex: 1 1 100%;
+    }
+}
+
+      
+
+        nav {
+            background-color:  rgb(105, 105, 193);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: whitesmoke;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color:  rgb(105, 105, 193);
+            color: whitesmoke;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 40px 0;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            background: whitesmoke;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color:  rgb(105, 105, 193);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .image-space {
+            width: 100%;
+            height: 250px;
+            background-color: whitesmoke;
+            text-align: center;
+            line-height: 250px;
+            color: #555;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        /* Business Manager Image */
+        .manager-section {
+            text-align: center;
+        }
+
+        .manager-section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            border: 4px solid  rgb(105, 105, 193);
+        }
+
+        footer {
+            background-color:  rgb(105, 105, 193);
+            color: whitesmoke;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="links">
+        <div class="link">
+<center>
+    
+<nav>
+    <a href=""style="margin-light: 90px; text-decoration: 4px underline blue; font-size: 50px; text-decoration: none; margin-top:60px;">HOME</a>
+        <a href="about.html" style="margin-left: 90px; font-size: 50px; text-decoration: none;margin-top:60px;">ABOUT</a>
+    <a href="contact.html" style="margin-left: 90px; font-size: 50px; text-decoration: none; margin-top:60px;">CONTACT</a>
+</nav>
+    
+</center>
+<div class="image-box">
+                <img src="./images/dior.JPG" alt="Health and Nutrition" style="width: 320px; height: 300px; align-content: center;">
+            </div>
+    </div>
+
+<div class="body">
+      
+<body>
+    
+    <div class="hero">
+        <h1>WELFARE INITIATIVE ORGANIZATION (WIO)</h1>
+        <p>Promoting Population Wellbeing Through Health, Agriculture and Environment</p>
+    </div>
+    <div>
+    </div>
+    <div class="container">
+        <h2 style="color:#004d00; text-align:center;">Our Key Activities</h2>
+    
+        <div class="image-boxes">
+            <div class="image-box">
+                <img src="./images/dior7.jpg" alt="Environment Activity">
+                <p>Environment Protection</p>
+            </div>
+    
+            <div class="image-box">
+                <img src="./images/dior5.jpg" alt="Health and Nutrition">
+                <p>Public Health & Nutrition</p>
+            </div>
+    
+            <div class="image-box">
+                <img src="./images/dior6.jpg" alt="Agriculture and Livestock">
+                <p>Agriculture, Livestock & Fight Malnutrition</p>
+            </div>
+        </div>
+    </div>
+    
+    <div><center><h6 style="font-size: 40px;"><u>OBJECTIVE:</u></h6></center></div>
+    <div class="container">
+        <h2 style="color:#004d00; text-align:center;">Our Focus Areas</h2>
+    
+        <div class="focus-boxes">
+            <div class="focus-box">
+                <h3>Environmental Protection</h3>
+                <p>We promote activities that protect the environment and encourage sustainable practices in communities.</p>
+            </div>
+    
+            <div class="focus-box">
+                <h3>Public Health</h3>
+                <p>We support programs that improve public health and provide access to essential health services.</p>
+            </div>
+    
+            <div class="focus-box">
+                <h3>Nutrition</h3>
+                <p>Our initiatives aim to fight malnutrition and improve nutritional outcomes for vulnerable populations.</p>
+            </div>
+    
+            <div class="focus-box">
+                <h3>Agriculture</h3>
+                <p>We support sustainable agriculture practices and provide guidance to local farmers.</p>
+            </div>
+    
+            <div class="focus-box">
+                <h3>Livestock Development</h3>
+                <p>We assist in livestock management to increase productivity and improve community livelihoods.</p>
+            </div>
+        </div>
+    </div>
+
+    <div><center><h6 style="font-size: 40px;">To promote activities concerning on the environment</h6></center></div>
+    
+    <div class="container">
+    
+       
+        
+        <div class="container">
+            <h2 style="color:#004d00; text-align:center;">Our Key Activities</h2>
+        
+            <div class="image-boxes">
+                <div class="image-box">
+                    <img src="./images/dior 2.jpg" alt="Environment Activity">
+                    <p>Environment Protection</p>
+                </div>
+        
+                <div class="image-box">
+                    <img src="./images/dior3.jpg" alt="Health and Nutrition">
+                    <p>Public Health & Nutrition</p>
+                </div>
+        
+                <div class="image-box">
+                    <img src="./images/dior7.jpg" alt="Agriculture and Livestock">
+                    <p>Agriculture, Livestock & Fight Malnutrition</p>
+                </div>
+            </div>
+        </div>
+    
+        
+    
+        <div class="container">
+            <h2 style="color:#004d00; text-align:center;">Our Key Activities</h2>
+        
+            <div class="image-boxes">
+                <div class="image-box">
+                    <img src="./images/dior5.jpg" alt="Environment Activity">
+                    <p>Environment Protection</p>
+                </div>
+        
+                <div class="image-box">
+                    <img src="./images/dior4.jpg" alt="Health and Nutrition">
+                    <p>Public Health & Nutrition</p>
+                </div>
+        
+                <div class="image-box">
+                    <img src="./images/dior5.jpg" alt="Agriculture and Livestock">
+                    <p>Agriculture, Livestock & Fight Malnutrition</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Business Manager Section -->
+        <div class="section manager-section">
+            <h2>Business Manager</h2>
+            <p><strong>Habumugisha Thomas</strong><br>
+            Founder President & Legal Representative</p>
+    
+            <!-- Replace manager.jpg with your real image file name -->
+            <img src="./images/founder president.jpg" alt="Business Manager Photo">
+    
+            <p>Experienced in Public Health and Agriculture, serving communities since 2004 and collaborating with local farmers associations and development institutions.</p>
+        </div>
+    
+    </div>
+    
+    <footer>
+        <p>© 2026 WELFARE INITIATIVE ORGANIZATION (WIO). All Rights Reserved.</p>
+        <h1 style="color: black;">------or--------</h1>
+        <p style="color: white; font-size: 100%; font-family: cursive; box-shadow: 40px;">WebProgramed BY: - .IRADUKUNDA Dieudonne</p>
+    </footer> 
+</div>
+
+
+</div> 
+</div> 
+    </div>
+</body>
+</html>
+
+
